@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../ss.jpg.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+    margin-right: 60px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: black;
+}
+
+ul li.active a{
+    background-color: #fff;
+    color: black;
+}
+.logo img{
+    float: left;
+    width: 100px;
+    height: auto;
+}
+.para P.active{
+    margin-top: 3%;
+    color: #fff;
+    font-size: 30px;
+    float: left;
+    font-style: italic;
+}
+.para p{
+    color: #fff;
+    font-size: 20px;
+    float: left;
+    width: 50%;
+    height: auto;
+    font-style: oblique;
+}
+.samlogo{
+    padding-top: 200px;
+    padding-left: 880px;
+}
+.samlogo p{
+    color: #fff;
+    font-style: italic;
+    padding-left: 45px;
+}
