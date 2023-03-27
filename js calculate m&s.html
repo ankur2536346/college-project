@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="js.js"></script>
+    <title>calculate M & D</title>
+    <style>
+        body{
+            background-color: cadetblue;
+            font-family: cursive;
+            text-align: center;
+            margin-top: 250px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <label for="fname">1st No.:</lable><br>
+        <input type="number"id="First No."name="fname"><br>
+        <lable for="fname"> 2nd No.:</lable><br>
+        <input type="number"id="Second No."name="fname"><br>
+        <br>
+        <input type="button" onclick="addBy()" value="Add">
+        <input type="button" onclick="subtractBy()" value="Subtract">
+        <input type="button" onclick="multiplyBy()" value="Multiply">
+        <input type="button" onclick="divideBy()" value="Divide">
+    </form>
+    <p>The Result is :
+        <span id="result"></span>
+    </p>
+</body>
+</html>
